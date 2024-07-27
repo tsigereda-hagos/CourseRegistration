@@ -1,0 +1,27 @@
+Acceptance Criteria:
+
+User Story 1:  As a student, I want to log in so I can easily enroll
+
+   • The system shall display a login page with a 'Login' button.
+   • If the username and password are correct, the student shall be redirected to the course enrollment page.
+   • If the username and password are incorrect, an error message shall be displayed, and the system should offer a password reset option.
+   • The system shall securely store user credentials.
+   • The system shall allow students to view all available courses and filter them by subject, level, and other criteria.
+   • Students shall be able to search for courses by name, and the system shall display all matching results.
+   • The system shall provide detailed course information, including the syllabus and associated materials.
+   • The system shall display the courses in which the student is currently enrolled, including course details.
+
+User Story 2:  As Registrar Faculty, I want to send notifications so students can be notified regarding registration deadlines
+
+   • The system shall allow Registrar Faculty to send notifications to all students via email or other communication platforms.
+   • Notifications can be customized for specific student groups or individual students.
+   • Registrar Faculty shall be able to view sent notifications and track their success rate.
+   • Notifications can be scheduled to be sent at specific times and on specific dates.
+
+User Story 3:  As an admin, I want to check the database so I can update and retrieve course and student information
+
+   • The system shall allow admins to log in and access the list of courses and student information in the database.
+   • Admins shall be able to update the courses by entering new information and making changes to existing data.
+   • The system shall provide functionality for admins to retrieve course and student information for reporting or other purposes.
+
+
