@@ -1,0 +1,20 @@
+Scenarios:
+
+  Scenario 1: Student Enrollment and Course Management
+    1. A student logs into their account, navigates to the course selection page, and views all available courses.
+    2. The student filters courses by subject and level, selects a course, and views detailed information, including the syllabus.
+    3. The student enrolls in a selected course after meeting prerequisites and availability requirements.
+    4. The student reviews all currently enrolled courses and course details.
+
+  Scenario 2: Notification Sending by Registrar Faculty
+    1. The Registrar Faculty logs into the system and sends a notification to all students about an upcoming registration deadline.
+    2. The Registrar Faculty customizes notifications for a specific group of students who have not yet registered.
+    3. The Registrar Faculty tracks the success rate of sent notifications and schedules future notifications.
+
+  Scenario 3: Database Management by Admin
+    1. An admin logs into the system, accesses the course list, and updates course information by adding new details or editing existing ones.
+    2. The admin retrieves a list of students enrolled in a particular course for reporting purposes.
+    3. The admin generates a report of all courses and student details, which is then exported for further analysis.
+
+
+
