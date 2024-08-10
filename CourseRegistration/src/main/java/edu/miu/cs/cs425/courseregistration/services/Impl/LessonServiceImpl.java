@@ -5,6 +5,7 @@ import edu.miu.cs.cs425.courseregistration.dao.LessonDao;
 import edu.miu.cs.cs425.courseregistration.domain.Block;
 import edu.miu.cs.cs425.courseregistration.domain.Course;
 import edu.miu.cs.cs425.courseregistration.domain.Faculty;
+import edu.miu.cs.cs425.courseregistration.services.LessonService;
 import org.hibernate.mapping.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

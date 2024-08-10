@@ -1,4 +1,4 @@
-package edu.miu.cs.cs425.courseregistration.services.Impl;
+package edu.miu.cs.cs425.courseregistration.services;
 
 import edu.miu.cs.cs425.courseregistration.domain.Block;
 import edu.miu.cs.cs425.courseregistration.domain.Course;
