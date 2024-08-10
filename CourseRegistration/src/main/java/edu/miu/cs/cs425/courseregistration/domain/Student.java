@@ -1,12 +1,15 @@
 package Project_CourseRegistration.Domain;
 
+import edu.miu.cs.cs425.courseregistration.domain.Entry;
+import edu.miu.cs.cs425.courseregistration.domain.StudentLesson;
+import edu.miu.cs.cs425.courseregistration.domain.Track;
 import jakarta.persistence.*;
 
 import java.util.List;
 
 @Entity
 @Table(name = "student")
-public class Student extends Person{
+public class Student extends Project_CourseRegistration.Domain.Person {
 
 	@ManyToOne
 	@JoinColumn(name="entry_id")

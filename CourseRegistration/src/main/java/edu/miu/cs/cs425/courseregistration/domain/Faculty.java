@@ -14,20 +14,20 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "faculty")
-public class Faculty extends Person {
+public class Faculty extends Project_CourseRegistration.Domain.Person {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "faculty_id")
     private Integer id;
     @OneToMany(mappedBy = "faculty")
-    private List<Lesson> lessons;
+    private List<Project_CourseRegistration.Domain.Lesson> lessons;
 
-    public List<Lesson> getLessons() {
+    public List<Project_CourseRegistration.Domain.Lesson> getLessons() {
         return lessons;
     }
 
-    public void setLessons(List<Lesson> lessons) {
+    public void setLessons(List<Project_CourseRegistration.Domain.Lesson> lessons) {
         this.lessons = lessons;
     }
 }
