@@ -3,6 +3,7 @@ package edu.miu.cs.cs425.courseregistration.domain;
 import java.util.List;
 
 
+import edu.miu.cs.cs425.courseregistration.Utils.Utils;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -54,8 +55,8 @@ public class Entry {
         this.year = year;
     }
 
-//    @Transient
-//    public String getName() {
-//        return Utils.getMonth(month) + " " + year;
-//    }
+    @Transient
+    public String getName() {
+        return Utils.getMonth(month) + " " + year;
+    }
 }

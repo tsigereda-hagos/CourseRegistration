@@ -1,5 +1,4 @@
-package Project_CourseRegistration.Domain;
-
+package edu.miu.cs.cs425.courseregistration.domain;
 import jakarta.persistence.Column;
 import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;

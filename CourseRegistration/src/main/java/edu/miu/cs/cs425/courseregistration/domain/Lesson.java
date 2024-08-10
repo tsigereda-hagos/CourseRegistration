@@ -1,5 +1,4 @@
-package Project_CourseRegistration.Domain;
-
+package edu.miu.cs.cs425.courseregistration.domain;
 import jakarta.persistence.*;
 
 import java.util.List;

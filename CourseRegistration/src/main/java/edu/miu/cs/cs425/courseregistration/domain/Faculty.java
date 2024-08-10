@@ -1,5 +1,4 @@
 package edu.miu.cs.cs425.courseregistration.domain;
-import java.util.List;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -12,22 +11,24 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
+import java.util.List;
+
 @Entity
 @Table(name = "faculty")
-public class Faculty extends Project_CourseRegistration.Domain.Person {
+public class Faculty extends Person {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "faculty_id")
     private Integer id;
     @OneToMany(mappedBy = "faculty")
-    private List<Project_CourseRegistration.Domain.Lesson> lessons;
+    private List<Lesson> lessons;
 
-    public List<Project_CourseRegistration.Domain.Lesson> getLessons() {
+    public List<Lesson> getLessons() {
         return lessons;
     }
 
-    public void setLessons(List<Project_CourseRegistration.Domain.Lesson> lessons) {
+    public void setLessons(List<Lesson> lessons) {
         this.lessons = lessons;
     }
 }
