@@ -7,7 +7,7 @@ import org.hibernate.mapping.List;
 
 public interface LessonService {
 
-    List<Project_CourseRegistration.Domain.Lesson> getLessonsByBlockId(String blockId);
+    java.util.List<Project_CourseRegistration.Domain.Lesson> getLessonsByBlockId(String blockId);
 
 
 

@@ -19,7 +19,7 @@ public class LessonServiceImpl implements LessonService {
     private LessonDao lessonDao;
 
     @Override
-    public List<Lesson> getLessonsByBlockId(String blockId) {
+    public List<Project_CourseRegistration.Domain.Lesson> getLessonsByBlockId(String blockId) {
         return lessonDao.findByBlockId(Integer.parseInt(blockId));
     }
 

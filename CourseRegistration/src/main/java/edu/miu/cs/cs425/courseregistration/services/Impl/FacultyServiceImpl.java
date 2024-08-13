@@ -3,6 +3,7 @@ package edu.miu.cs.cs425.courseregistration.services.Impl;
 import edu.miu.cs.cs425.courseregistration.dao.FacultyDao;
 import edu.miu.cs.cs425.courseregistration.domain.Faculty;
 import edu.miu.cs.cs425.courseregistration.services.FacultyService;
+import edu.miu.cs.cs425.courseregistration.services.UserService;
 import edu.miu.cs.cs425.courseregistration.services.exception.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
