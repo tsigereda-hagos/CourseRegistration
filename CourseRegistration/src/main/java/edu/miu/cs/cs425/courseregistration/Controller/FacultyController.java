@@ -27,6 +27,7 @@ public class FacultyController {
     @GetMapping("/add")
     public String showNewFacultyForm(Model model) {
         model.addAttribute("newFaculty", new Faculty());
+giy
         return "faculty-create";
     }
 
