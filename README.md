@@ -67,7 +67,9 @@ The system is structured using a layered architecture with the following compone
 
 # Installation & Setup
 1. Clone the Repository:
+   
    git clone https://github.com/your-username/course-registration-system.git
+   
    cd course-registration-system
 2. Configure the Database:
    Update the application.properties file with your database credentials.
