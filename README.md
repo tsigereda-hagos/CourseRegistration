@@ -1,5 +1,5 @@
 # Course Registration System (CRS)
-Introduction
+# Introduction
 The Course Registration System (CRS) is a web-based application developed to streamline the course registration process at Maharishi International University. The system is designed to improve communication regarding registration deadlines, efficiently manage course and student information, and handle various aspects of course registration, including prerequisites and waitlists.
 
 # Objective
@@ -8,24 +8,24 @@ Improve communication about registration deadlines.
 Efficiently manage course and student information.
 
 # Target Users
-Students: To enroll in courses, manage their schedules, and receive notifications.
-Registrar Faculty: To send notifications, manage course information, and handle student registrations.
-Administrative Staff: To manage the database, update student and course information, and generate reports.
+- Students: To enroll in courses, manage their schedules, and receive notifications.
+- Registrar Faculty: To send notifications, manage course information, and handle student registrations.
+- Administrative Staff: To manage the database, update student and course information, and generate reports.
 
 # Features
 # Student Use-Cases
-Login: Secure login using email and password.
-Password Reset: Option to reset the password if forgotten.
-Enroll/Drop Courses: Ability to enroll in or drop courses based on prerequisites and availability.
-View Schedule: Access to view the current course schedule.
+- Login: Secure login using email and password.
+- Password Reset: Option to reset the password if forgotten.
+- Enroll/Drop Courses: Ability to enroll in or drop courses based on prerequisites and availability.
+- View Schedule: Access to view the current course schedule.
 
 # Registrar Faculty Use-Cases
-Send Notifications: Send email notifications to students about registration deadlines.
-Schedule Notifications: Ability to schedule notifications to be sent at specific times.
+- Send Notifications: Send email notifications to students about registration deadlines.
+- Schedule Notifications: Ability to schedule notifications to be sent at specific times.
 
 # Admin Use-Cases
-Retrieve Student List: Retrieve a list of all students enrolled in a particular course.
-Database Management: Access and update course and student information.
+- Retrieve Student List: Retrieve a list of all students enrolled in a particular course.
+- Database Management: Access and update course and student information.
 
 # System Scenarios
 # Scenario 1: Student Enrollment and Course Management
@@ -73,16 +73,17 @@ MySQL/PostgreSQL: For production database management.
    Update the application.properties file with your database credentials.
 3. Build and Run the Application:
    mvn clean install
+   
    mvn spring-boot:run
-4. Access the Application:
+5. Access the Application:
    Open your browser and navigate to http://localhost:8888.
 
    
 # Contributors
-Adonay Gebrerufael
-Tsigereda Hagos
-Samsom Michael
-Henok Gebremichael
-Wycliff Kasirye
+- Adonay Gebrerufael
+- Tsigereda Hagos
+- Samsom Michael
+- Henok Gebremichael
+- Wycliff Kasirye
 
 
