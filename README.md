@@ -58,12 +58,12 @@ The system is structured using a layered architecture with the following compone
 - Sequence Diagram: Depicts the sequence of operations for the student enrollment process.
   
 # Technologies Used
-Spring Boot: For developing the backend services.
-Thymeleaf: For building the front-end templates.
-Spring Security: For managing authentication and authorization.
-JPA/Hibernate: For database interactions.
-H2 Database: For in-memory testing and development.
-MySQL/PostgreSQL: For production database management.
+- Spring Boot: For developing the backend services.
+- Thymeleaf: For building the front-end templates.
+- Spring Security: For managing authentication and authorization.
+- JPA/Hibernate: For database interactions.
+- H2 Database: For in-memory testing and development.
+- MySQL/PostgreSQL: For production database management.
 
 # Installation & Setup
 1. Clone the Repository:
@@ -72,10 +72,11 @@ MySQL/PostgreSQL: For production database management.
 2. Configure the Database:
    Update the application.properties file with your database credentials.
 3. Build and Run the Application:
+
    mvn clean install
    
    mvn spring-boot:run
-5. Access the Application:
+4. Access the Application:
    Open your browser and navigate to http://localhost:8888.
 
    
