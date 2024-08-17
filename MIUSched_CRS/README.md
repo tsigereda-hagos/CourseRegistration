@@ -1,4 +1,4 @@
-# MUMSched
+# MIUSched
 
 
 User name is -admin@miu.edu
