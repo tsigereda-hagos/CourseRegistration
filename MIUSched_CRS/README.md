@@ -6,7 +6,8 @@ User name is -admin@miu.edu
 Password is -pass
 
 
-GROUP NAME:
+
+# GROUP NAME:
 
 Adonay Gebrerufael
 
