@@ -88,6 +88,3 @@ The system is structured using a layered architecture with the following compone
 - Samsom Michael
 - Henok Gebremichael
 - Wycliff Kasirye
-
-# License
-This project is licensed under the MIT License - see the LICENSE file for details.
